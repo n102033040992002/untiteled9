@@ -11,7 +11,7 @@ import 'mainpage.dart';
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        textTheme:TextTheme(
+        textTheme:const TextTheme(
           headline1:TextStyle(
               fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),
             headline2:TextStyle(
